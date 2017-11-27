@@ -76,6 +76,7 @@ describe('Question', () => {
         see('The title');
     });
 
+    // Helper Functions
     let see = (text, selector) => {
         let wrap = selector ? wrapper.find(selector) : wrapper;
 

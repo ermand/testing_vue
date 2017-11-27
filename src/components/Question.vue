@@ -43,7 +43,6 @@
         axios.post('/questions/1', this.form)
             .then(({data}) => {
               this.feedback = true;
-              console.log(data.title);
             });
 
         this.editing = false;
